@@ -1,0 +1,245 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header{
+  padding: 1% 0px;
+  overflow: hidden;
+  background-color: #839192;
+}
+nav{
+ margin-left: 5%;
+ margin-top: 1%;
+}
+nav ul{
+  padding: 20px;
+}
+nav ul a.selector{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #E05529;
+  text-decoration: none;
+  padding: 20px;
+}
+nav ul a.selector:hover{
+  color: #243672;
+}
+nav ul a#select{
+  color: #243672;
+}
+.logo{
+  width: 20%;
+  margin-right: 5%;
+}
+.banneri{
+  width: 100%;
+    height: 420px;
+    background: url('../img/banneri.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.fondo{
+  width: 55%;
+  height: 150px;
+  background-color: rgba(0,0,0,.8);
+  margin-top: 15%;
+}
+.banneri .tit{
+  margin-left: 3%;
+  padding-top: 3%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  width: 99%;
+  text-transform: uppercase;
+}
+.tit2{
+  line-height: 50px;
+}
+.tit3{
+  font-size: 18px;
+}
+.boton{
+  text-align: center;
+  margin-top: 3%;
+}
+.btn-danger{
+  background-color: #E05327;
+  border: #E05327;
+}
+
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+    background:#000;
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+
+}
+footer p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #fff;
+}
+/*--------------ir arriba-----------*/
+
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#000;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+/*------------------nosotros-----------------*/
+.fondo2{
+  width: 60%;
+  height: 150px;
+  background-color: rgba(0,0,0,.8);
+  margin-top: 15%;
+}
+.bannern{
+  width: 100%;
+    height: 420px;
+    background: url('../img/bannern.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.bannern .tit{
+   margin-left: 3%;
+  padding-top: 3%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  width: 99%;
+  text-transform: uppercase;
+}
+.bannern2{
+  width: 100%;
+    height: 1200px;
+    background: url('../img/bannern2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.fondon2{
+  width: 100%;
+    height: 1200px;
+    background-color: rgba(0,0,0,.5);
+
+}
+.imagen1{
+  width: 100%;
+    height: 220px;
+    background: url('../img/mision.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.imagen2{
+  width: 100%;
+    height: 220px;
+    background: url('../img/vision.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.imagen3{
+  width: 100%;
+    height: 220px;
+    background: url('../img/valores.png');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.icono{
+  text-align: center;
+}
+.icono i{
+  font-size: 100px;
+  color: #243672;
+}
+/*-------------------servicios---------------*/
+.banners{
+  width: 100%;
+    height: 420px;
+    background: url('../img/banners2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banners .tit{
+   margin-left: 3%;
+  padding-top: 3%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  width: 99%;
+  text-transform: uppercase;
+}
+/*-----------------contacto-----------------*/
+/*.bannerc{
+    height: 550px;
+    background: url('../img/banner4.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.bannerc .tit{
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 50px;
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+.linea3{
+  width: 60%;
+  background-color: #fff;
+  height: 2px;
+  margin: 0 auto;
+}
+.bannerc .subtit{
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1%;
+}*/
+
