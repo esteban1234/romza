@@ -34,56 +34,62 @@ y del continuo esfuerzo de nuestro personal se ha consolidado como una empresa d
 liderazgo en su especialidad, superándonos día a día con el fin de brindar un servicio de primera línea.</p>
     </div> <br><br>
 
-        <div class="row">
-          <div class="col-md-2">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
-            class="img-circle img-responsive">
+        <div class="row " style="">
+          <div class="col-md-1 col-md-offset-2">
+            <div class="icono">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="col-md-2">
             <h3 class="text-left">Asistencia</h3>
-            <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p>
+            <p class="text-left">Técnica y especializada.</p>
           </div>
-          <div class="col-md-2">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
-            class="img-circle img-responsive">
+          <div class="col-md-1">
+            <div class="icono">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="col-md-2">
             <h3 class="text-left">Reparación</h3>
-            <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p>
+            <p class="text-left">En sitio.</p>
           </div>
-          <div class="col-md-2">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
-            class="img-circle img-responsive">
+          <div class="col-md-1">
+            <div class="icono">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="col-md-2">
             <h3 class="text-left">Equipo</h3>
-            <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p>
+            <p class="text-left">Contamos con un Dinamómetro especial.</p>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-2">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
-            class="img-circle img-responsive">
+          <div class="col-md-1 col-md-offset-2">
+            <div class="icono">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="col-md-2">
             <h3 class="text-left">Garantía</h3>
-            <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p>
+            <p class="text-left">Hasta 24 meses de trabajo contínuo amparado bajo póliza de servicio.</p>
           </div>
-          <div class="col-md-2">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
-            class="img-circle img-responsive">
+          <div class="col-md-1">
+            <div class="icono">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="col-md-2">
             <h3 class="text-left">Mantenimiento</h3>
-            <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p>
+            <p class="text-left">8 mantenimientos preventivos y correctivos sin costo adicional.</p>
           </div>
-          <div class="col-md-2">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
-            class="img-circle img-responsive">
+          <div class="col-md-1">
+            <div class="icono">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="col-md-2 text-center">
             <h3 class="text-left">Otros</h3>
-            <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p>
+            <p class="text-left">Manufactura y servicios.</p>
           </div>
         </div>
         <div class="boton" style="">

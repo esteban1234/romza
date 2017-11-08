@@ -2,99 +2,115 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-    <header>
-    <figure class="logo pull-left">
-      <a href="../index.php"><img src="../img/nuup.jpg" alt="NUUP" class="img-responsive"></a>
-    </figure>
-
-    <div class="textoheader pull-right">
-      <a class="unete" href="contacto.php">UNETE A NUESTRO EQUIPO</a>
-      <p class="textopheader">"Valores y servicios diferenciados que exceden <br> a las expectativas"</p>
-    </div>
-  </header>
-<nav class="navbar navbar-inverse" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target=".navbar-ex1-collapse">
-      <span class="sr-only">NUUP</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
-  <div class="collapse navbar-collapse navbar-ex1-collapse" >
-    <ul class="nav navbar-nav" style="">
-      <li><a href="../index.php">INICIO</a></li>
-      <li><a href="nosotros.php">NOSOTROS</a></li>
-      <li><a href="servicios.php">SERVICIOS</a></li>
-      <li class="active"><a href="contacto.php">CONTACTO</a></li>
+   <header>
+  <nav class="pull-left">
+    <ul>
+      <a class="selector" href="../index.php">INICIO</a>
+      <a class="selector" href="nosotros.php">NOSOTROS</a>
+      <a class="selector" href="servicios.php">SERVICIOS</a>
+      <a class="selector" id="select" href="contacto.php">CONTACTO</a>
     </ul>
-  </div>
-</nav>
+  </nav>
+
+  <figure class="logo pull-right animated bounceInRight">
+    <img src="../img/romza.png" alt="ROMZA" class="img-responsive">
+  </figure>
+</header>
 
 <div class="bannerc">
-  <p class="tit">PROVEEDOR LIDER <br> EN SOLUCIONES DE CALIDAD</p>
-  <hr class="linea3">
-
-  <p class="subtit">Para nosotros su comunicación es muy importante, agradecemos nos brinde los siguientes datos para atenderle mejor.</p>
+  <div class="fondo2 animated bounceInLeft">
+    <p class="tit">Contacto<br> Estamos para servirte </p>
+  </div>
 </div>
 
-<section id="contact">
-  <div class="container">
-    <div class="well well-sm">
-      <h3><strong>Datos de la empresa y formulario</strong></h3>
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+                <p class="ts"> 
+                    Llene el siguiente formulario y ponganse en contacto con nosotros, un especialista lo atenderá.
+                </p>
+        </div>
     </div>
-  
-  <div class="row">
-    <div class="col-md-7">
-      <div class="row">
-        <div class="col-md-5">
-          <h4 class="text-center">DIRECCION</h4>
-          <p class="text-center">C.15 #318 por 38 y 60 Col. Fracc. del Norte, Mérida, Yucatan. C.P. 97120</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Nombre completo</label>
+                             <div class="input-group">
+                              <span class="input-group-addon"><span class="glyphicon fa fa-user"></span>
+                              </span>
+                              <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre completo" required="required" /></div>   
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Correo</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">
+                                Teléfono</label>
+                              <div class="input-group">
+                              <span class="input-group-addon"><span class="glyphicon fa fa-phone"></span>
+                              </span>
+                              <input type="text" class="form-control" id="name" placeholder="Escribe tu número teléfonico" required="required" /></div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Comentario</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Escribe tu comentario"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-danger pull-right" id="btnContactUs">
+                            Enviar Mensaje</button>
+                    </div>
+                </div>
+                </form>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h4 class="text-center">HORARIO</h4>
-          <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon fa fa-globe"></span> Datos de la empresa</legend>
+            <address>
+                <strong>Dirección</strong><br>
+                Av. 6-A Sur Poniente #367 <br>
+                Col. San Pascualito,<br>
+                Tuxtla Gutierrez, Chiapas. C.P. 29000 <br>
+            </address>
+            <address>
+                <strong>Correo</strong><br>
+                <a href="mailto:info@mantenimientoromza.com">info@mantenimientoromza.com</a>
+            </address>
+            <address>
+                <strong>Teléfono</strong><br>
+                PENDIENTE
+            </address>
+            <address>
+                <strong>Horario</strong><br>
+                Lunes a Viernes de 9 am a 6 pm
+            </address>
+            </form>
         </div>
-        
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-5">
-        <h4 class="text-center">CORREO</h4>
-          <p class="text-center">info@administradoranuup.com</p>
-        </div>
-        <div class="col-md-5">
-          <h4 class="text-center">TELEFONO</h4>
-          <p class="text-center">PENDIENTE</p>
-        </div>
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.1652516194606!2d-89.62237991654123!3d21.006221597786393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a919479279%3A0xfd5b7144c72f081!2sCalle+15+318%2C+Campestre%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1510006035489" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+    </div>
+</div>
 
-      <div class="col-md-5">
-          <h4><strong>Formulario</strong></h4>
-        <form>
-          <div class="form-group">
-            <input type="text" class="form-control" name="" value="" placeholder="Escribe tu nombre completo">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" name="" value="" placeholder="Escribe tu correo electronico">
-          </div>
-          <div class="form-group">
-            <input type="tel" class="form-control" name="" value="" placeholder="Escribe tu número teléfonico">
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="" rows="3" placeholder="Escribe tu comentario"></textarea>
-          </div>
-          <button class="btn btn-default" type="submit" name="button">
-              <i class="fa fa-paper-plane-o" aria-hidden="true"></i> ENVIAR
-          </button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="mapa">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.557730368764!2d-93.12162538575677!3d16.748905125314334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8f513ba91df%3A0xa8a5f527199a12a!2sAv.+Sexta+Sur+Pte.+367%2C+El+Calvario%2C+29000+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1510180828569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 
 <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
