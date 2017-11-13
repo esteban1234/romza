@@ -1,0 +1,526 @@
+@media screen and (max-width: 480px){
+/***************DISEÑO INDEX******************/
+	nav, .logo{
+		float: none !important;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		width: 70%;
+		top: 0px;
+		left: 0px;		
+		margin:0px;
+		height: 100%;
+		background-color: #839192;
+		z-index: 2;
+	}
+
+	nav ul{
+		padding: 0px !important;
+	}
+
+	nav ul .selector{
+		display: block;
+		text-align: center;
+		padding: 10px 0px !important;
+	}
+
+	.logo{
+		margin: 10px auto;
+		width: 45%;
+	}
+
+	.op-menu{
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banneri, .bannern, .fondon2, .bannern2, .banners, .bannerc{
+		height: 100%;
+	}
+
+	.fondo, .fondo2{
+		/*border: 2px solid green;*/
+		width: 95%;
+		margin: auto;
+		height: 100%;
+	}
+
+	.tit{
+		width: 100%;
+		font-size: 16px !important;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.tit > br{
+		display: none;
+	}
+
+
+	.btn-ind, .oculto, .delete-br br{
+		display: none;
+	}
+
+	.tit2{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit3{
+		text-align: justify;
+		padding: 0px 12px;
+	}
+
+	.img-ind{
+
+		margin: auto;
+		padding: 10px 0px;
+	}
+
+	.boton{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+/***************END DISEÑO INDEX***************/
+
+/***************DISEÑO NOSOTROS*******************/
+	.margen-aser{
+		margin-top: 2em !important;
+		display: block;
+	}
+
+	.tit-mvv{
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.txt-mvv{
+		padding: 10px 16px;
+		font-size: 18px;
+	}
+
+	.tit-pf{
+		line-height: normal;
+	}
+
+	.margen-aux{
+		margin: 20px 0px;
+	}
+/***************END DISEÑO NOSOTROS***************/
+
+
+/***************DISEÑO SERVICIOS*******************/
+/*.icono{
+	border: 2px solid red;
+}*/
+
+.txt-centrado p, .txt-centrado h3{
+	text-align: center !important;
+}
+
+.txt-centrado h3{
+	margin-top: 8px;
+}
+/***************END DISEÑO SERVICIOS***************/
+
+
+/***************DISEÑO CONTACO*******************/
+.ts{
+	font-size: 18px;
+	text-align: justify;
+	padding: 0px 12px;
+}
+
+legend, address{
+	text-align: center;
+}
+/***************END DISEÑO CONTACO***************/
+
+/***************DISEÑO FOOTER*******************/
+footer{
+	height: 100%;
+}
+
+footer p{
+	width: 95%;
+	font-size: 16px;
+	margin-bottom: 8px; 
+}
+/***************END DISEÑO FOOTER***************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	/***************DISEÑO INDEX******************/
+	nav, .logo{
+		float: none !important;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		width: 70%;
+		top: 0px;
+		left: 0px;		
+		margin:0px;
+		height: 100%;
+		background-color: #839192;
+		z-index: 2;
+	}
+
+	nav ul{
+		padding: 0px !important;
+	}
+
+	nav ul .selector{
+		display: block;
+		text-align: center;
+		padding: 10px 0px !important;
+	}
+
+	.logo{
+		margin: 10px auto;
+		width: 35%;
+	}
+
+	.op-menu{
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banneri, .bannern, .fondon2, .bannern2, .banners, .bannerc{
+		height: 100%;
+	}
+
+	.fondo, .fondo2{
+		/*border: 2px solid green;*/
+		width: 95%;
+		margin: auto;
+		height: 100%;
+	}
+
+	.tit{
+		width: 100%;
+		font-size: 16px !important;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.tit > br{
+		display: none;
+	}
+
+
+	.btn-ind, .oculto, .delete-br br{
+		display: none;
+	}
+
+	.tit2{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit3{
+		text-align: justify;
+		padding: 0px 12px;
+	}
+
+	.img-ind{
+
+		margin: auto;
+		padding: 10px 0px;
+	}
+
+	.boton{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+/***************END DISEÑO INDEX***************/
+
+/***************DISEÑO NOSOTROS*******************/
+	.margen-aser{
+		margin-top: 2em !important;
+		display: block;
+	}
+
+	.tit-mvv{
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.txt-mvv{
+		padding: 10px 16px;
+		font-size: 18px;
+	}
+
+	.tit-pf{
+		line-height: normal;
+	}
+
+	.margen-aux{
+		margin: 20px 0px;
+	}
+
+	.imagen1, .imagen2, .imagen3{
+		background-size: 100% 100%; 
+
+	}
+/***************END DISEÑO NOSOTROS***************/
+
+
+/***************DISEÑO SERVICIOS*******************/
+/*.icono{
+	border: 2px solid red;
+}*/
+
+.txt-centrado p, .txt-centrado h3{
+	text-align: center !important;
+}
+
+.txt-centrado h3{
+	margin-top: 8px;
+}
+/***************END DISEÑO SERVICIOS***************/
+
+
+/***************DISEÑO CONTACO*******************/
+.ts{
+	font-size: 18px;
+	text-align: justify;
+	padding: 0px 12px;
+}
+
+legend, address{
+	text-align: center;
+}
+/***************END DISEÑO CONTACO***************/
+
+/***************DISEÑO FOOTER*******************/
+footer{
+	height: 100%;
+}
+
+footer p{
+	width: 95%;
+	font-size: 16px;
+	margin-bottom: 8px; 
+}
+/***************END DISEÑO FOOTER***************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/***************DISEÑO INDEX******************/
+	nav, .logo{
+		float: none !important;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		width: 70%;
+		top: 0px;
+		left: 0px;		
+		margin:0px;
+		height: 100%;
+		background-color: #839192;
+		z-index: 2;
+	}
+
+	nav ul{
+		padding: 0px !important;
+	}
+
+	nav ul .selector{
+		display: block;
+		text-align: center;
+		padding: 10px 0px !important;
+	}
+
+	.logo{
+		margin: 10px auto;
+		width: 25%;
+	}
+
+	.op-menu{
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banneri, .bannern, .fondon2, .bannern2, .banners, .bannerc{
+		height: 100%;
+	}
+
+	.fondo, .fondo2{
+		/*border: 2px solid green;*/
+		width: 95%;
+		margin: auto;
+		height: 100%;
+	}
+
+	.tit{
+		width: 100%;
+		font-size: 16px !important;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.tit > br{
+		display: none;
+	}
+
+
+	.btn-ind, .oculto, .delete-br br{
+		display: none;
+	}
+
+	.tit2{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit3{
+		text-align: justify;
+		padding: 0px 12px;
+	}
+
+	.img-ind{
+
+		margin: auto;
+		padding: 10px 0px;
+	}
+
+	.boton{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+/***************END DISEÑO INDEX***************/
+
+/***************DISEÑO NOSOTROS*******************/
+	.margen-aser{
+		margin-top: 2em !important;
+		display: block;
+	}
+
+	.tit-mvv{
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.txt-mvv{
+		padding: 10px 16px;
+		font-size: 18px;
+	}
+
+	.tit-pf{
+		line-height: normal;
+	}
+
+	.margen-aux{
+		margin: 20px 0px;
+	}
+
+	.imagen1, .imagen2, .imagen3{
+		background-size: 100% 100%; 
+		height: 280px !important;
+	}
+/***************END DISEÑO NOSOTROS***************/
+
+
+/***************DISEÑO SERVICIOS*******************/
+/*.icono{
+	border: 2px solid red;
+}*/
+
+.icono i{
+	font-size: 75px;
+}
+
+.txt-centrado p, .txt-centrado h3{
+	text-align: center !important;
+}
+
+.txt-centrado h3{
+	margin-top: 8px;
+}
+
+
+/***************END DISEÑO SERVICIOS***************/
+
+
+/***************DISEÑO CONTACO*******************/
+.ts{
+	font-size: 18px;
+	text-align: justify;
+	padding: 0px 12px;
+}
+
+legend, address{
+	text-align: center;
+}
+/***************END DISEÑO CONTACO***************/
+
+/***************DISEÑO FOOTER*******************/
+footer{
+	height: 100%;
+}
+
+footer p{
+	width: 95%;
+	font-size: 16px;
+	margin-bottom: 8px; 
+}
+/***************END DISEÑO FOOTER***************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	.icono i{
+	font-size: 70px;
+}
+
+.fondo, .fondo2{
+	width: 85%;
+	height: 180px;
+}
+
+.tit{
+	margin: auto !important;
+	font-size: 22px;
+}
+
+.img-ind{
+	margin: 10px auto;
+
+}
+
+.txt-mvv{
+	padding: 0px 15px;
+}
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+
+	.fondo, .fondo2{
+	width: 85%;
+	height: 180px;
+}
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

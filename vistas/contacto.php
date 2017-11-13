@@ -15,6 +15,9 @@
   <figure class="logo pull-right animated bounceInRight">
     <img src="../img/romza.png" alt="ROMZA" class="img-responsive">
   </figure>
+  <div class="op-menu">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
 </header>
 
 <div class="bannerc">
@@ -34,7 +37,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-sm-7 col-md-8">
             <div class="well well-sm">
                 <form>
                 <div class="row">
@@ -45,7 +48,7 @@
                              <div class="input-group">
                               <span class="input-group-addon"><span class="glyphicon fa fa-user"></span>
                               </span>
-                              <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre completo" required="required" /></div>   
+                              <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo" required="required" /></div>   
                             
                         </div>
                         <div class="form-group">
@@ -54,7 +57,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico" required="required" /></div>
+                                <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu correo electrónico" required="required" /></div>
                         </div>
                         <div class="form-group">
                             <label for="name">
@@ -62,7 +65,7 @@
                               <div class="input-group">
                               <span class="input-group-addon"><span class="glyphicon fa fa-phone"></span>
                               </span>
-                              <input type="text" class="form-control" id="name" placeholder="Escribe tu número teléfonico" required="required" /></div>
+                              <input type="text" class="form-control" id="txtTELEFONO" placeholder="Escribe tu número teléfonico" required="required" /></div>
                             
                         </div>
                     </div>
@@ -70,19 +73,20 @@
                         <div class="form-group">
                             <label for="name">
                                 Comentario</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            <textarea name="message" id="txtCOMENTARIO" class="form-control" rows="9" cols="25" required="required"
                                 placeholder="Escribe tu comentario"></textarea>
                         </div>
                     </div>
+                    <div id="_AJAX_PRE_" class="col-lg-12"></div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-danger pull-right" id="btnContactUs">
+                        <button type="submit" class="btn btn-danger pull-right" id="btnContactUs" onclick="sendCORREO()">
                             Enviar Mensaje</button>
                     </div>
                 </div>
                 </form>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-5 col-md-4">
             <form>
             <legend><span class="glyphicon fa fa-globe"></span> Datos de la empresa</legend>
             <address>

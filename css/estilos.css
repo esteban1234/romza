@@ -36,6 +36,10 @@ nav ul a#select{
   width: 20%;
   margin-right: 5%;
 }
+
+.op-menu{
+  display: none;
+}
 .banneri{
   width: 100%;
     height: 420px;
